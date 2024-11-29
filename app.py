@@ -15,7 +15,7 @@ def my_output(query):
 
 st.set_page_config(page_title = "BIXBY")
 st.header("BIXBY")
-input = st.text_input("INput ",key = "input")
+input = st.text_input("Input ",key = "input")
 submit = st.button("Just Ask... ")
 
 if submit :
