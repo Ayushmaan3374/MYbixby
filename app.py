@@ -20,6 +20,6 @@ submit = st.button("Just Ask... ")
 
 if submit :
     response = my_output(input)
-    st.subheader("Results = ")
+    #st.subheader("")
     st.write(response)
 
